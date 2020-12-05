@@ -37,6 +37,9 @@
     <Compile Include="01_Generate\FactoryMethodRegacy.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="02_Structure\AdapterRegacy.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="BasicDP.py" />
   </ItemGroup>
   <ItemGroup>
@@ -44,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="01_Generate\" />
+    <Folder Include="02_Structure\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="01_Generate\Generate.md" />
+    <Content Include="02_Structure\02_Structure.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
